@@ -30,11 +30,8 @@ const FlyoutNav = () => {
   return (
     <nav
       className={`fixed top-0 z-50 w-full px-6 text-black 
-      transition-all duration-300 ease-out lg:px-12 shadow-xl
-      ${
-        scrolled
-          ? "bg-neutral-950 py-3 shadow-xl"
-          : "bg-neutral-950/0 py-6 shadow-none"
+      transition-all duration-300 ease-out lg:px-12 py-4 bg-white shadow-md
+
       }`}
     >
       <div className="mx-auto flex max-w-7xl items-center justify-between">
